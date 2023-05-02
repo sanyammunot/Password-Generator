@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monospace, cursive, Arial, Helvetica, sans-serif ;
+  box-sizing: border-box; 
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #3b3b98;
+}
+
+.container {
+  width: 450px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.generator {
+  background-color: #23235b;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 10px rgba(255,255,255,0.2);
+}
+
+.generator-header {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.generator-password {
+  background: rgba(0,0,0,0.4);
+  padding: 13px 10px;
+  color: #fff;
+  height: 46px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  cursor: pointer;
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  height: 88%;
+  width: 35px;
+
+}
+
+.container h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.generate-psd  {
+  padding: 10px;
+  border: none;
+  display: block;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  width: 100%;
+}
